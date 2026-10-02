@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Live Mbps Bar",
+  "description": "Shows the current download speed as a bar at the top of Safari.",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png",
+    "128": "icon-128.png",
+    "512": "icon-512.png"
+  },
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}

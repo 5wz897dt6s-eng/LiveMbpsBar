@@ -245,7 +245,7 @@ private struct TopView: View {
             VStack(alignment: .leading, spacing: 5) {
                 Text("Live Mbps Bar")
                     .font(.system(size: 34, weight: .medium))
-                Text("Show live net speed by bar on your iPhone at the top of the Safari screen.")
+                Text("Show live net speed as a bar at the top of Safari.")
                     .font(.system(size: 15))
                     .foregroundStyle(.secondary)
                     .lineLimit(2)
@@ -349,7 +349,7 @@ private struct TopView: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text("How to activate")
                     .font(.system(size: 24, weight: .medium))
-                Text("Enable this app from Safari Extensions.")
+                Text("Enable Live Mbps Bar in Safari Extensions.")
                     .font(.system(size: 16))
                     .foregroundStyle(.secondary)
 
@@ -357,7 +357,7 @@ private struct TopView: View {
                     Spacer()
                     NavigationLink(value: AppRoute.detail) {
                         HStack(spacing: 5) {
-                            Text("Detail")
+                            Text("Details")
                             Image(systemName: "chevron.right")
                         }
                         .font(.system(size: 18, weight: .medium))

@@ -1,6 +1,6 @@
 # Live Mbps Bar implementation record
 
-Updated: 2026-10-02 JST
+Updated: 2026-10-03 JST
 
 Version 1.0.0 was declared fixed on 2026-10-02 JST. The release baseline and accepted platform-dependent behaviors are recorded in `RELEASE_1.0.0.md`; exact source and asset hashes are stored in `RELEASE_1.0.0.sha256`.
 
@@ -9,6 +9,8 @@ Version 1.0.0 was declared fixed on 2026-10-02 JST. The release baseline and acc
 The formal implementation, the first two iPhone 13 Pro UI feedback revisions, and the stalled `— Mbps` recovery fix are complete in `/Users/hitoshi0002/Documents/Codex/LiveMbpsBar`. The PoC at `/Users/hitoshi0002/Documents/Codex/PoC/Net_Condition_Bar2` was not modified.
 
 The project builds successfully for both the iOS Simulator and the generic iOS device SDK with Xcode 27.0. The app was installed and launched on an iPhone 17 simulator running iOS 26.5; the Top screen, fixed 10.0 Mbps preview, icon asset compilation, and embedded Safari extension were verified.
+
+On 2026-10-03, the Top-page description was changed to “Show live net speed as a bar at the top of Safari.”, the activation guidance to “Enable Live Mbps Bar in Safari Extensions.”, and the activation link from “Detail” to “Details”. Simulator and connected iPhone 13 Pro signed Debug builds succeeded.
 
 ## Implemented behavior
 

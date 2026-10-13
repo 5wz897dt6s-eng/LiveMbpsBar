@@ -1,5 +1,7 @@
 # Live Mbps Bar
 
+![Live Mbps Bar screenshot](screenshot.png)
+
 Live Mbps Bar is an iPhone app with a Safari Web Extension that shows the device's current download rate as a 3 CSS px bar at the top of ordinary HTTP and HTTPS pages.
 
 ## Project
